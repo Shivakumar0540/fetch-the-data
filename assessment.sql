@@ -47,7 +47,7 @@ FROM RECEIPTS_FACT
 WHERE receipt_status IN ('ACCEPTED', 'REJECTED')
 GROUP BY receipt_status;
 
--- Total ietems purchased by receipt status:
+-- Total items purchased by receipt status:
 
 SELECT 
   receipt_status,
